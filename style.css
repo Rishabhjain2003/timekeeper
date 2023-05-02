@@ -1,0 +1,57 @@
+@import "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Montserrat+Alternates&display=swap";
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: Atkinson Hyperlegible;
+    background: lightblue;
+}
+.cont{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translateX(30%); */
+    
+}
+
+.num{
+    /* background: #ffa500; */
+    background:  slategray;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 6px;
+    transition: all 500ms ease-in-out;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.25);
+}
+
+.circle{
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    margin-right: 10px;
+    margin-left: 9px;
+    border: 2px solid white;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.25);
+}
+
+.circle-container{
+    display:flex;
+    z-index: 11;
+    transform: translateX(-100%);
+}
+
+#c{
+    margin-left: 50px;
+}
+
+#m1{
+    margin-left: 50px;
+}
+
+#s1{
+    margin-left: 50px;
+}
