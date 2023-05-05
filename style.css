@@ -4,8 +4,7 @@ body{
     margin: 0;
     padding: 0%;
     font-family: Atkinson Hyperlegible;
-    /* background: lightblue; */
-    background: rgb(40, 40, 40);
+    background: lightblue;
 
 }
 .cont{
@@ -20,8 +19,7 @@ body{
 
 .num{
     /* background: #ffa500; */
-    /* background:  slategray; */
-    background: rgb(254, 100, 100);
+    background:  slategray;
     color: white;
     padding: 5px 20px;
     margin: 10px;
